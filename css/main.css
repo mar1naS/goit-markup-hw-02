@@ -1,0 +1,98 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --btn-bck-color: #f5f4fa;
+}
+
+.page {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+/* колір фону #FFFFFF */
+/* колір основного тексту: #757575; */
+/* другорядний колір тексту #212121; */
+/* акцент #2196F3 */
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--secondary-text-color);
+}
+.web-logo {
+  color: var(--accent-color);
+
+  /*Site-nav*/
+}
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Auth-nav */
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+
+.hero-title {
+  color: var(--primary-bg-color);
+}
+
+/* Section */
+
+.section .section-title {
+  color: var(--secondary-text-color);
+}
+
+/* Advantages  */
+.advantages .title {
+  color: var(--secondary-text-color);
+}
+
+/* Button */
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--btn-bck-color);
+  color: var(--secondary-text-color);
+}
+
+/* Portfolio Main Page */
+
+.examples .title {
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+
+.list .name {
+  color: var(--secondary-text-color);
+}
+
+.contact .address {
+  color: var(--primary-bg-color);
+}
+
+.contact .info {
+  color: rgba(255, 255, 255, 0.6);
+}
