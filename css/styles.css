@@ -6,7 +6,7 @@
   --btn-bck-color: #f5f4fa;
 }
 
-.page {
+.body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 
@@ -109,7 +109,6 @@
 }
 
 .advantages .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -124,6 +123,8 @@
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+
+  cursor: pointer;
 }
 .button.primary {
   background-color: var(--accent-color);
@@ -136,8 +137,9 @@
   letter-spacing: 0.06em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.button .primary:focus,
-.button .primary:hover {
+.button.primary:focus,
+.button.primary:hover {
+  background-color: #188ce8;
   align-items: center;
 }
 .button.secondary:hover,
@@ -158,7 +160,6 @@
 }
 
 .examples .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 }
@@ -174,7 +175,6 @@
 }
 
 .list .position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
@@ -182,7 +182,6 @@
 .contact .address {
   color: var(--primary-bg-color);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
@@ -191,7 +190,6 @@
 .contact .info {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
