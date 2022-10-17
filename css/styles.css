@@ -6,7 +6,7 @@
   --btn-bck-color: #f5f4fa;
 }
 
-.body {
+body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 
@@ -91,7 +91,6 @@
 .section .section-title {
   color: var(--secondary-text-color);
 
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -102,7 +101,6 @@
 .advantages .title {
   color: var(--secondary-text-color);
 
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -153,7 +151,6 @@
 .examples .title {
   color: var(--secondary-text-color);
 
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
