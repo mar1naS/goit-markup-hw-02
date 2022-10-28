@@ -163,6 +163,10 @@ button {
   text-decoration: none;
   font-style: normal;
 }
+
+.examples a {
+  text-decoration: none;
+}
 /* Footer */
 
 .list .name {
